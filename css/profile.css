@@ -1,0 +1,29 @@
+img.profile{
+    border-radius: 50%;
+    width:250px;
+    height:250px;
+}
+div.profile-background{
+    height:60%;
+    background-color: rgb(94, 233, 180);
+}
+.profile-font-color{
+    color:rgb(76,110,67);
+}
+.zoom {
+    padding: 30px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom)*/
+}
+.card-border{
+    border-radius: 10px;
+}
+.oval-border{
+    border-radius: 100px;
+}

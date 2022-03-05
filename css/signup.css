@@ -1,0 +1,61 @@
+
+div.user-sign-up-field{
+    max-width: 600px;
+}
+img.user-image{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+.user-image-label{
+    background-color: rgb(110,110,110);
+}
+button.user-sign-up{
+    background-color: rgb(53,86,103);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+span.error-text{
+    color:red;
+}
+#pswd_info{
+    position:relative;
+    bottom:50px;
+    bottom: -115px\9; /* IE Specific */
+    right:-125px;
+    width:250px;
+    padding:15px;
+    background:#fefefe;
+    font-size:.875em;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+    display: none;
+    z-index: 1;
+}
+#pswd_info h4{
+    margin:0 0 10px 0;
+    padding:0;
+    font-weight:normal;
+}
+#pswd_info::before {
+    content: "\25B2";
+    position:absolute;
+    top:-12px;
+    left:45%;
+    font-size:14px;
+    line-height:14px;
+    color:#ddd;
+    text-shadow:none;
+    display:block;
+}
+.invalid {
+    padding-left:22px;
+    line-height:24px;
+    color:#ec3f41;
+}
+.valid{
+    padding-left:22px;
+    line-height:24px;
+    color:#3a7d34;
+}
